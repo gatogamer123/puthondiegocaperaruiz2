@@ -1,0 +1,18 @@
+def lista_apo(estudiantes):
+    aprobados = []
+    reprobados = []
+    
+    for estudiante in estudiantes:
+        if estudiante >= 3:
+            aprobados.append(estudiante)
+        else:
+            reprobados.append(estudiante)
+    
+    return aprobados, reprobados
+
+
+estudiantes = [2, 4, 3, 1, 5]
+
+aprobados, reprobados = lista_apo(estudiantes)
+print("Aprobados:", aprobados)
+print("Reprobados:", reprobados)

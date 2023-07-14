@@ -1,0 +1,11 @@
+def mayor_o_menor():
+    a=int(input('escriba numero: '))
+    b=int(input('escriba numero: '))
+    if a > b:
+        return "El primer número es mayor"
+    elif b > a:
+        return "El segundo número es mayor"
+    else:
+        return "Los números son iguales"
+
+print(mayor_o_menor())

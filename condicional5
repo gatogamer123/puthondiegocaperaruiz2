@@ -1,0 +1,12 @@
+def tipo_triangulo():
+    a=int(input('escriba numero: '))
+    b=int(input('escriba numero: '))
+    c=int(input('escriba numero: '))
+    if a == b and a == c:
+        return "Triángulo equilátero"
+    elif a == b or a == c or b == c:
+        return "Triángulo isósceles"
+    else:
+        return "Triángulo escaleno"
+
+print(tipo_triangulo())

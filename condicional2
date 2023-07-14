@@ -1,0 +1,10 @@
+def positivo_negativo():
+    a=int(input('escribir numero: ')) 
+    if a > 0:
+        return "Es positivo"
+    elif a < 0:
+        return "Es negativo"
+    else:
+        return "Es cero"
+
+print(positivo_negativo())

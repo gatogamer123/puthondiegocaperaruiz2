@@ -1,0 +1,10 @@
+def evaluacion_calificacion():
+    a=int(input('escriba numero: '))
+    if a >= 60:
+        return "Aprobado"
+    elif a == 60:
+        return "Aprobado"
+    else:
+        return "Reprobado"
+
+print(evaluacion_calificacion())

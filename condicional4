@@ -1,0 +1,8 @@
+def rango_numeros():
+    z=int(input('escribe numero: '))
+    if z >= 1 and z <= 10:
+        return "Número en rango"
+    else:
+        return "Número fuera de rango"
+
+print(rango_numeros())
